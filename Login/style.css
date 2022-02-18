@@ -1,0 +1,279 @@
+body{
+    margin: 0px;
+}
+.login-page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(287.56deg, #0F0C29 0%, #302B63 50%, #24243E 100%);
+}
+.rectangle{
+    position: absolute;
+    width: 690px;
+    height: 690px;
+    left: calc(50% - 690px/2);
+    top: calc(50% - 690px/2);
+
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 40px;
+    align-items: center;
+    z-index: 2;
+}
+.login{
+    width: 503px;
+    height: 595px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 460px;
+    padding-top: 30px;
+}
+.header h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+.email h3{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.email input{
+    background: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding:10px 160px 10px 160px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #BCBEC0;
+}
+.email h4{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.sing-in input{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background: #BD0C47;
+    border-radius: 10px;
+    padding:10px 215px 10px 215px;
+}
+.rectangle h5{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+.or-continue{
+    display: flex;
+    justify-content: center;
+}
+.or-continue img{
+    background: #FFFFFF;
+    border: 1px solid #BCBEC0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin: 10px;
+}
+.yet{
+    display: flex;
+    padding-top: 20px;
+}
+.yet h1{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.yet h2{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+.group-1{
+    animation-name: hareket;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 88%;
+    right: 0%;
+    top: 84%;
+    bottom: 0%;
+}
+.group-2{
+    animation-name: hareket;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position:absolute;
+    left: 0%;
+    right: 78.58%;
+    top: 63.90%;
+    bottom: 0%;
+}
+.group-3{
+    animation-name: hareket;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 3;
+    left: 62.8%;
+    right: 24.52%;
+    top: 68.89%;
+    bottom: 25.87%;
+}
+.group-4{
+    animation-name: hareket;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 66%;
+    right: 20.16%;
+    top: 76.12%;
+    bottom: 19.63%;
+}
+.group-5{
+    animation-name: hareket;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 31.04%;
+    right: 58.34%;
+    top: 0.1%;
+    bottom: 69.56%;
+}
+.group-6{
+    animation-name: hareket;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 1;
+    left: 49.9%;
+    right: 15.3%;
+    top: 10.28%;
+    bottom: 32.06%;
+}
+.group-7{
+    width:400px;
+    height: 400px;
+    animation-name: hareket;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 1;
+    left: 24.9%;
+    right: 57.86%;
+    top: 62.48%;
+    bottom: 6.31%;
+}
+.group-8{
+    width: 270px;
+    height: 180px;
+    animation-name: hareket;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count:infinite;
+    position: absolute;
+    z-index: 1;
+    left: 23.67%;
+    right: 66.42%;
+    top: 76.47%;
+    bottom: 12.49%;
+}
+.group-9{
+    animation-name: hareket;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 24.5%;
+    right: 71.82%;
+    top: 42.82%;
+    bottom: 49.35%
+}
+.group-10{
+    width: 300px;
+    animation-name: hareket;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    position: absolute;
+    z-index: 4;
+    left: 25.84%;
+    right: 65.42%;
+    top: 25.25%;
+    bottom: 59.47%;
+}
+@keyframes hareket{
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
